@@ -900,7 +900,8 @@ checkout()
 int main()
 {
     conn = mysql_init(0);
-    conn = mysql_real_connect( conn , "192.168.43.184" , "bijit" , "1234" , "hms" , 0 , NULL , 0);
+    //use your ip_address,your user_name,your pass_word.................................
+    conn = mysql_real_connect( conn , "your_ip_address" , "your_user_name" , "your_password" , "hms" , 0 , NULL , 0);
     int x=1;
     while(x==1)
 
